@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/login/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+				"leftWindow": false,
+				"topWindow": false
+		    }
+		    
+		},{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},{
+			"path": "pages/menu/menu1",
+			"style": {
+				"navigationBarTitleText": "菜单1"
+			}
+		},{
+			"path": "pages/menu/menu2",
+			"style": {
+				"navigationBarTitleText": "菜单2"
+			}
+		}
+        
+        ,{
+            "path" : "pages/department/person/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/department/person/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/error/error",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle":"custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"leftWindow": {
+		"path": "components/window/left-window",
+		"style": {
+			"width": "240px",
+			"overflow-x": "initial"
+		}
+	},
+	"topWindow": {
+		"path": "components/window/top-window",
+		"style": {
+			"height": "60px"
+			
+		},
+		"matchMedia": {
+			"minWidth": 0
+		}
+	}
+
+}
