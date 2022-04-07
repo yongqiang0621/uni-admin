@@ -1,0 +1,1 @@
+import{_ as a,o as s,c as r,w as t,q as e,j as n}from"./index.3ba4132c.js";var o=a({data:()=>({})},[["render",function(a,o,d,u,c,f){const l=n;return s(),r(l,null,{default:t((()=>[e(" 人员管理 ")])),_:1})}]]);export{o as default};

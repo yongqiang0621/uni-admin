@@ -45,16 +45,14 @@
     "@dcloudio/uni-mp-weixin": "^3.0.0-alpha-3030720220111003",
     "@dcloudio/uni-quickapp-webview": "^3.0.0-alpha-3030720220111003",
     "@element-plus/icons-vue": "^0.2.6",
+    "@wangeditor/editor-for-vue": "^5.1.9",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "echarts": "^5.3.1",
     "element-plus": "^1.3.0-beta.7",
-    "fs": "^0.0.1-security",
-    "rt-uni-utils": "^1.0.29",
     "rt-unipc-utils": "^1.0.7",
     "sass": "^1.49.0",
     "vue": "^3.2.26",
-    "vue-i18n": "^9.1.9",
-    "vuex": "^4.0.2"
+    "vue-i18n": "^9.1.9"
   },
   "devDependencies": {
     "@dcloudio/types": "^2.5.16",
